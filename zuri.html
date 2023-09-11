@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+        }
+
+        #profile {
+            background-color: rgb(127, 196, 106);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="profile">
+        <h1>Profile Data</h1>
+        <img src="/image/pics.jpg" alt="Your Slack Username" data-testid="slackDisplayImage">
+        <h1 data-testid="slackUserName">Slack Name: Adebowale Weade</h1>
+        <p data-testid="currentDayOfTheWeek">Day: Monday</p>
+        <p data-testid="currentUTCTime">currentUTCTime: 1626472598000</p>
+        <p data-testid="myTrack">Track: Frontend</p>
+        <a href="https://github.com/AdebowaleDev/Profile-Data.git" data-testid="githubURL">GitHub Repository</a>
+    </div>
+</body>
+</html>
